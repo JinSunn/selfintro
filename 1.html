@@ -7,8 +7,6 @@
     body{
       height: 660px;
       background-color: CadetBlue;
-      background-image: url('me1.png');
-      background-repeat: no-repeat;
       background-position: center bottom;
     }
     a:visited{color:beige;}
@@ -20,12 +18,16 @@
       color:white;
       font-family: "Elephant", "맑은 고딕";
     }
-    #list1{position: absolute;left:300px;top: 225px;}
-    #list3{position: absolute;left:300px;top: 500px;}
-    #list2{position: absolute;left:1025px;top: 362px;}
-    ol{
-      font-size: 1rem;
+    h2{
       font-size: 2.5rem;
+      position: absolute; left:455px; top:90px;
+      color:white;
+      font-family:경기천년제목, "맑은 고딕";
+    }
+    #image{position: absolute; left:455px; top:260px;}
+    ul{
+      position: absolute; left:700px; top:310px;
+      font-size: 1.5rem;
       color: white;
       font-family: 경기천년제목, "맑은 고딕";
     }
@@ -33,11 +35,12 @@
 </head>
 <body>
   <h1><a href="index.html">Let Me Introduce Myself</a></h1>
-  <br><br>
-  <ol>
-    <li id="list1"><a href="1.html">공대생 임진선</a></li>
-    <li id="list2"><a href="2.html">휴학생 임진선</a></li>
-    <li id="list3"><a href="3.html">YEHS 임진선</a></li>
-  </ol>
+  <h2>공대생 임진선</h2>
+  <img id="image" src="me2.jpg" width="200px" title="ID pic" alt="ID pic">
+  <ul>
+    <li><a href="http://mech.skku.ac.kr/" title="성균관대학교 기계공학부">SKKU Mechanical Engineering</a></li><br>
+    <li>Interested in Thermofluidic Mechanic</li><br>
+    <li>Interned at Heat&Mass Transfer Lab</li>
+  </ul>
 </body>
 </html>
