@@ -12,28 +12,34 @@
       background-repeat: no-repeat;
       background-position: center bottom;
     }
+    a:visited{color:beige;}
+    a:link{color:white;}
+    a:hover{color:gray;}
     h1{
       font-size: 3rem;
       text-align: center;
       color:white;
-      font-family: "Elephant", "맑은 고딕";
+      font-family: /*"Elephant",*/ "맑은 고딕";
     }
-    .list{
+    #list1{position: absolute;left:300px;top: 225px;}
+    #list3{position: absolute;left:300px;top: 500px;}
+    #list2{position: absolute;left:1025px;top: 362px;}
+    ol{
       font-size: 1rem;
       font-weight: bold;
       font-size: 2.5rem;
       color: white;
-      font-family: 경기천년제목, "맑은 고딕";
+      font-family: /*경기천년제목, */"맑은 고딕";
     }
   </style>
 </head>
 <body>
-  <h1><a href="index.html"></a>Let Me Introduce Myself</h1>
+  <h1><a href="index.html">Let Me Introduce Myself</a></h1>
   <br><br>
   <ol>
-    <li class="list"><a href="1.html"></a>공대생 임진선</li>
-    <li class="list"><a href="2.html"></a>휴학생 임진선</li>
-    <li class="list"><a href="3.html"></a>YEHS 임진선</li>
+    <li id="list1"><a href="1.html">공대생 임진선</a></li>
+    <li id="list2"><a href="2.html">휴학생 임진선</a></li>
+    <li id="list3"><a href="3.html">YEHS 임진선</a></li>
   </ol>
 </body>
 </html>
